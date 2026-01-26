@@ -8,3 +8,4 @@
 - 11.5.2에서 NULL 포인터 사용, #include <stdio.h>. 전처리 했는지 확인. 매크로 했는지 확인
 - 10장 끝에서 sizeof 설명하기.
 - 12장에서 sizeof(타입)을 쓰고 있으니 그 전에 설명하기.
+- 포인터 할때 referenced type 단어 설명하기. call by reference 단어 다시 보기. C++하고 reference의 의미 비교해보기. 
