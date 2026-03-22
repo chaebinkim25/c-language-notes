@@ -350,12 +350,12 @@ C 언어에서는 관습적으로 매크로 이름은 대문자로 쓴다.
 ```c
 #define SIZE 5      /* 주의: 끝에 세미콜론 ;을 붙이지 않는다! */
 
-int main()
+int main(void)
 {
-    /* 컴파일 전에 먼저 SIZE가 5로 바뀐다. int a[5]; 와 똑같아진다. */
-    int a[SIZE]; 
-    
-    return 0;
+        /* 컴파일 전에 먼저 SIZE가 5로 바뀐다. int a[5]; 와 똑같아진다. */
+        int a[SIZE]; 
+        
+        return 0;
 }
 ```
 
@@ -387,7 +387,7 @@ int main()
 ```c
 #define SIZE 5        /* SIZE 라는 토큰을 찾으면, 5로 바꾸기를 한다. */
 
-int main()
+int main(void)
 {
         int i;
         int a[SIZE] = {10, 20, 30, 40, 50};
